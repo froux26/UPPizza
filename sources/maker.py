@@ -44,4 +44,4 @@ class PizzaMaker:
             return False, error
         self._gain += price  # Gain money
         self.__apply_sauce(RECIPES[name])
-        return True, message
+        return True, None
